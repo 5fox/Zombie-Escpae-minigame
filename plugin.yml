@@ -1,0 +1,27 @@
+name: VampireZ
+api: 3.5.0
+version: 1.2.0
+main: skywars\SkyWars
+author: VaKKuum
+description: VampireZ minigame plugin
+
+permissions:
+  vz.cmd:
+    description: Permission to all VampireZ commands
+    default: op
+    children:
+      vz.cmd.help:
+        description: Permission for /sw help
+        default: op
+      vz.cmd.create:
+        description: Permission for /sw create
+        default: op
+      vz.cmd.remove:
+        description: Permission for /sw remove
+        default: op
+      vz.cmd.set:
+        description: Permission for /sw set
+        default: op
+      vz.cmd.arenas:
+        description: Permission for /sw arenas
+        default: op
